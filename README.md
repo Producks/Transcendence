@@ -1,5 +1,8 @@
 # ft_transcendence
 
+## Dave comment on the project
+A lot of things should have been done differently in retrospect. We weren't aware of being able to use Django Rest API before it was too late. I had to make decisions with what we had, and the outcome wasn't pretty in the end. The biggest waste of time and was doing the ModSecurity + Hashicorp Vault module. The idea is great, don't get me wrong, but the assignment required everything to compile in a single command, and the inability to unseal the vault was clearly an oversight by the network who created the assignment. A good 5 days were straight in the bin because of that. Considering the project is the first web project with all those technologies we know nothing about, the outcome wasn't half bad for a first beginner project. At least, I got to learn a lot of new things and in the future a lot of those issues will be taken care of since I'll have more experience.
+
 ## About the project
 
 "ft_transcendence" is a dynamic web project centered on hosting real-time multiplayer Pong games. It combines web technologies with stringent security protocols to offer a robust, single-page application, designed for Google Chrome. The project showcases modular development in areas like gameplay, user management, and cybersecurity, challenging participants to create an engaging and secure gaming platform. It also features peer-evaluation and flexible technology choices within specified constraints, making it a comprehensive showcase of web development skills.
